@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    margin: auto;
+    padding: auto;
+    color: rgb(212, 212, 212);
+    background-color: rgb(44, 44, 44);
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    place-content: center;
+}
+
+.button {
+    background-color: rgb(105, 172, 99);
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(86, 141, 81);
+}
+
+.button:active {
+    background-color: rgb(57, 95, 53);
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.error {
+    color: rgb(239, 173, 255);
+    font-size: 20px;
+}
